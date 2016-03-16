@@ -1,0 +1,173 @@
+* {margin: 0; padding: 0; }
+body {
+    background-image: url(../img/background.jpg);
+    }
+
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+img{
+display:block;
+}
+
+.logo{
+ height: 164px;
+ float: left;
+ margin: 9px 0px 0px 20px;
+     }
+  
+header li{
+    padding: 2px 2px;
+ }
+
+.right{
+        float: right;
+    }
+.contacts{
+    float: right;
+    margin: 10px 30px;
+    font: 12px tahoma;
+    color: #5fa5bb;
+    list-style: none;
+}
+.contries{
+    float: right;
+    font: 12px tahoma;
+    color: #5fa5bb;
+    list-style: none;
+    margin: 10px 30px 0px 1px;  
+    clear: both;
+    }
+
+.contries ul{
+      margin: 1px 1px;
+}
+
+ .contries li {
+     text-align: center;
+     float: left;
+     padding: 4px 4px;
+}
+
+.contries  a{
+  font:10px tahoma;
+  padding: 1px 0px 1px 1px;
+  display: block;
+  text-decoration: underline;
+    }
+
+ul.menu {
+   	background-color: #343434;
+    width: 1020px;
+    height: 33px;
+    box-shadow: 0 0 1em black;
+}
+
+ul.menu>li {
+    float: left;
+	list-style: none;
+	position: relative;
+}
+
+ul.menu>li>a {
+  	color: white;
+	display: block;
+	padding: 5px 5px 10px 60px;
+	text-decoration: none;
+}
+
+ul.menu>li>ul {
+	display: none;
+}
+
+ul.menu>li:hover>ul {
+    box-shadow: 0 0 1em black;
+    display: block;
+	position: absolute;
+	top: 33px;
+    left: 50px;
+	background-color: #343434;
+	z-index: 1000;
+}
+
+ul.menu>li:hover>ul>li {
+	float: none;
+	width: 145px;
+	list-style: none;
+}
+
+ul.menu>li:hover>ul>li>a {
+	border-top: 1px solid #4f4f4f;
+	padding: 5px 10px 5px 10px;
+	display: block;
+	color: white;
+	text-decoration: none;
+    
+}
+
+ul.menu>li:hover>ul>li>a:hover {
+	background-color: transparent;
+	color: #c1deff;
+}
+
+.site{
+width: 1020px;
+margin: 0 auto;
+box-shadow: 0 0 1em black;
+background-color: white;
+}
+
+.fon {
+width: 100%;
+overflow: hidden;
+}
+
+.leftColumn {
+ width: 20%;
+ float: left;    
+ text-align: center;
+ background: #edeef0;
+ padding-bottom: 20000px;
+ margin-bottom: -20000px;
+  }
+
+.centerColumn {
+width: 60%;
+float: left;
+background: white;
+ padding-bottom: 20000px;
+ margin-bottom: -20000px;
+ border: 1px solid black;
+  }
+
+.rightColumn {
+text-align: center;
+width: 19.8%; /* Почему при  20% и добавлени .centerColum {(border: 1px solid black;)} , идет сдвиг правой колонки */
+float: right;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
+background: #edeef0;   
+   } 
+
+table{
+    border-spacing:0px;
+    width: 100%;
+    }
+td{
+    border-bottom: 1px solid black;
+   }
+p{
+ font: 14px tahoma;
+ padding: 5px 10px;   
+}
+span{
+    font-size: 10px;
+}
+.copy{
+    font: 12px tahoma;
+    color: white;
+    margin: 5px 5px;
+    text-align: center;
+}
